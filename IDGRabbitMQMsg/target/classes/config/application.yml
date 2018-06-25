@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://10.1.12.101:1433;databaseName=152RabbitmqMsg
+    username: sa
+    password: hundsun@1
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    initialize: true
