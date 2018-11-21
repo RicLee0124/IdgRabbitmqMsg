@@ -23,7 +23,7 @@ public class RabbitConsumer {
 
     private static final String REQUEST_QUEUE_NAME = "requestsqueuelog";
     private static final String REPLY_QUEUE_NAME = "repliesqueuelog";
-    private static final String IP_ADDRESS = "10.1.8.152";
+    private static final String IP_ADDRESS = "192.168.0.151";
     private static final int PORT = 5672;
 
 
